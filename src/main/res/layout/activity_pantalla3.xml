@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pantalla3">
+
+    <EditText
+        android:id="@+id/edit_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/edit_1"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/edit_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/edit_2"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_1"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <CheckBox
+        android:id="@+id/check_suma"
+        android:layout_width="115dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/check_suma"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_2" />
+
+    <CheckBox
+        android:id="@+id/check_resta"
+        android:layout_width="112dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/check_resta"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/check_suma" />
+
+    <CheckBox
+        android:id="@+id/check_multiplicacion"
+        android:layout_width="153dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/check_multiplicacion"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_2" />
+
+    <CheckBox
+        android:id="@+id/check_division"
+        android:layout_width="112dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/check_dividir"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/check_multiplicacion" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="44dp"
+        android:onClick="resoluver"
+        android:text="@string/botton6"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/check_resta" />
+
+    <TextView
+        android:id="@+id/tv_resultado2"
+        android:layout_width="351dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/tv_resultado2"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="321dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="32dp"
+        android:onClick="regresarin"
+        android:text="@string/botton7"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_resultado2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

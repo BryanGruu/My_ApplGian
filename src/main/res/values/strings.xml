@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="bt1">Radiogrup</string>
+    <string name="bt2">Checkbox</string>
+    <string name="bt3">Spinner</string>
+    <string name="textview">TextView</string>
+
+    <string name="txt_valor1">ingrese el primer valor</string>
+    <string name="txt_valor2">ingrese el segundo valor</string>
+    <string name="rb_suma">sumar</string>
+    <string name="rb_resta">restar</string>
+    <string name="rb_producto">multiplicar</string>
+    <string name="rb_dividir">Dividir</string>
+    <string name="button">Calcular</string>
+    <string name="tv_resultado">Resultado</string>
+    <string name="button5">REGRESAR</string>
+
+    <string name="edit_1">ingrese el primer valor</string>
+    <string name="edit_2">ingrese el primer valor</string>
+    <string name="check_suma">suma</string>
+    <string name="check_resta">resta</string>
+    <string name="check_multiplicacion">multiplicar</string>
+    <string name="check_dividir">divsion</string>
+    <string name="botton6">CALCULAR</string>
+    <string name="tv_resultado2">RESULTADO</string>
+    <string name="botton7">REGRESAR</string>
+
+    <string name="etr_valor1">ingrese el valor</string>
+    <string name="etr_valor2">ingrese el valor</string>
+    <string name="botto8">CALCULAR</string>
+    <string name="tv_resultado3">resultado</string>
+    <string name="botton9">REGRESAR</string>
+
+
+
+
+
+
+
+</resources>
